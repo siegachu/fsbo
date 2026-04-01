@@ -162,7 +162,7 @@ export default function App() {
       {stateData && (
         <main className="max-w-5xl mx-auto px-3 py-3 flex-1 w-full">
           {stateData.specialRules && (
-            <div className="mb-6 bg-blue-50 border border-blue-200 rounded-lg p-4 text-sm text-blue-900">
+            <div className="mb-3 bg-blue-50 border border-blue-200 rounded-lg p-3 text-xs text-blue-900">
               <strong>{stateData.name} Note:</strong> {stateData.specialRules}
             </div>
           )}
@@ -172,11 +172,20 @@ export default function App() {
           {activeTab === 'Buyer Info' && <BuyerInfoTab state={stateData} />}
           {activeTab === 'Templates' && <TemplatesTab state={stateData} />}
           {activeTab === 'Contact & Help Pricing' && (
-            <div className="space-y-6">
-              <div className="bg-white rounded-lg border border-gray-200 p-6">
-                <h2 className="text-xl font-bold text-gray-900 mb-2">Need Help Pricing Your Home?</h2>
-                <p className="text-gray-600 mb-4">Our team provides flat-fee consulting for every step — pricing, marketing, negotiation, and closing. Get a free consultation to make sure you're pricing competitively and maximizing your net proceeds.</p>
-                <a href="mailto:ryan+firstdoorkey@rsfundmanagement.com" className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-2.5 rounded-md font-medium transition-colors">Email ryan+firstdoorkey@rsfundmanagement.com →</a>
+            <div className="space-y-3">
+              <div className="bg-white rounded-lg border border-gray-200 p-4">
+                <h2 className="text-lg font-bold text-gray-900 mb-1">Need Help Pricing Your Home?</h2>
+                <p className="text-xs text-gray-600 mb-2">Our team provides flat-fee consulting for every step — pricing, marketing, negotiation, and closing. Get a free consultation to make sure you're pricing competitively and maximizing your net proceeds.</p>
+                <a href="mailto:ryan+firstdoorkey@rsfundmanagement.com" className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-md font-medium text-xs transition-colors">Email ryan+firstdoorkey@rsfundmanagement.com →</a>
+              </div>
+              <div className="bg-white rounded-lg border border-gray-200 p-4">
+                <h2 className="text-base font-bold text-gray-900 mb-1">Find Professionals</h2>
+                <ul className="text-xs text-gray-700 space-y-1">
+                  <li>Real estate attorney — <a href="https://www.legalzoom.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">legalzoom.com</a></li>
+                  <li>Tax professional — <a href="https://www.hrblock.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">hrblock.com</a></li>
+                  <li>Mortgage rates & loans — <a href="https://www.bankrate.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">bankrate.com</a></li>
+                  <li>Real estate agent — <a href="https://www.coldwellbanker.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">coldwellbanker.com</a></li>
+                </ul>
               </div>
             </div>
           )}
@@ -185,7 +194,7 @@ export default function App() {
 
       <footer className="bg-gray-100 border-t border-gray-200">
         <div className="max-w-5xl mx-auto px-3 py-3 text-xs text-gray-500 text-center">
-          <p>This website provides educational information only and does not constitute legal, financial, or real estate advice. Always consult a licensed attorney or CPA.</p>
+          <p>This website provides educational information only and does not constitute legal, financial, or real estate advice. Always consult a licensed attorney or tax professional.</p>
           <p className="mt-1">Content developed by First Door Key — financial planning and real estate professionals.</p>
           <p className="mt-1">For comments and questions, reach out to <a href="mailto:ryan+firstdoorkey@rsfundmanagement.com" className="text-blue-600 hover:underline">ryan+firstdoorkey@rsfundmanagement.com</a></p>
           <p className="mt-2 text-gray-400">

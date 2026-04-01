@@ -1,0 +1,5 @@
+[
+  {"name": "auth_token", "value": "c38026bf15eb00c4d0d07c012eb34e7ee7f0750f", "domain": ".x.com", "path": "/", "secure": true, "httpOnly": true, "sameSite": "None"},
+  {"name": "ct0", "value": "6ceff24ea78dd1a24d92b108dbd3aef46f853aa8721672e10e9635a2ae7e1e55140bb8b529cd29cbee2859d2a1b74ae2df9d3dad8fdde25e20f62d2ff459184d9138290d37a2febcbb387567a3b0cdb8", "domain": ".x.com", "path": "/", "secure": true, "httpOnly": false, "sameSite": "Lax"},
+  {"name": "twid", "value": "u%3D2039151442758348801", "domain": ".x.com", "path": "/", "secure": true, "httpOnly": true, "sameSite": "None"}
+]
